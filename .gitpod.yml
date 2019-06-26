@@ -1,5 +1,4 @@
-image:
-  file: Dockerfile
+image: Dockerfile
 ports:
   - port: 6080
-    protocol: "http"
+    onOpen: open-preview
