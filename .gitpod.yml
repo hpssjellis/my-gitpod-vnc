@@ -14,7 +14,7 @@ tasks:
   
   
   - command: gp await-port 6080                 &&
-             xterm -geometry 80x20+100+0        &&
+             xterm -geometry 80x20+0+100        &&
              gp preview $(gp url 6080)    
        
        
