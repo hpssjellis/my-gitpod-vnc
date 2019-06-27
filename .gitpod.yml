@@ -15,15 +15,14 @@ tasks:
   
   - command: gp await-port 6080                  &&
              xterm -geometry 120x20+0+350        &&  
-             chmod +x a01-run-go.sh              && 
-             chmod +x a02-run-firefox.sh         && 
              gp preview $(gp url 6080)    
        
        
   - command: "go get -v ./... "
   
-  
-  
+
+  - command: chmod +x a01-run-go.sh              && 
+             chmod +x a02-run-firefox.sh          
              
   
 
