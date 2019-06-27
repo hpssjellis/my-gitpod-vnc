@@ -11,8 +11,9 @@ ports:
     
 tasks:
   - command: "go get -v ./... "
-  - command: gp await-port 6080            &&
-             xterm                         &&
+  - command: gp await-port 6080                 &&
+             xterm -geometry 200x50+0+350       &&
+             xterm -geometry 200x50+60+350      &&
              gp preview $(gp url 6080)     
              
   
