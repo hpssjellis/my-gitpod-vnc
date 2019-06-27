@@ -14,3 +14,14 @@ xterm -geometry 120x20+0+0
 
 
 
+Bash files are setup for you to look at and to run
+
+
+Shows how to run the main.go go program in the myGo folder
+
+./a01-run-go.sh
+
+
+
+Shows how to run the firefox browser
+./a02-run-firefox.sh
