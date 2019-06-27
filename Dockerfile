@@ -12,7 +12,8 @@ RUN apt-get update                                           \
 USER gitpod
 
 
-
+RUN npm install -g cordova ionic qrcode @ionic/lab cordova-res native-run @capacitor/core @capacitor/cli electron  electron-packager                               \
+    
 
 
 
