@@ -14,7 +14,9 @@ tasks:
   
   
   - command: gp await-port 6080                  &&
-             xterm -geometry 120x20+0+350        &&
+             xterm -geometry 120x20+0+350        &&  
+             chmod +x a01-run-go.sh              && 
+             chmod +x a02-run-firefox.sh         && 
              gp preview $(gp url 6080)    
        
        
@@ -24,5 +26,4 @@ tasks:
   
              
   
-  # not getting the following working from the .gitpod.yml file, but it works fine from the command line
-  # go run /workspace/src/github.com/hpssjellis/gitpod-hello-ui-demo/main.go 
+
