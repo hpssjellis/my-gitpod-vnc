@@ -11,7 +11,7 @@ RUN apt-get update \
 
 USER gitpod
 
-RUN snap install firefox
+#RUN snap install firefox
 
 
 
