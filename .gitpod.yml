@@ -10,9 +10,11 @@ ports:
     protocol: "http"
     
 tasks:
+  - command:  xterm -geometry 80x20+0+0   
+  
+  
   - command: gp await-port 6080                 &&
-             xterm -geometry 200x50+0+0         &&
-             xterm -geometry 200x50+0+250       &&
+             xterm -geometry 80x20+100+0        &&
              gp preview $(gp url 6080)    
        
        
